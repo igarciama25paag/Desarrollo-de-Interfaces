@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Interfaces\\Ariketa1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55E1BF15-EE09-4996-AD9E-1AA7667EAFEC}|Ariketa1\\Ariketa1.csproj|d:\\interfaces\\ariketa1\\ariketa1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E1BF15-EE09-4996-AD9E-1AA7667EAFEC}|Ariketa1\\Ariketa1.csproj|solutionrelative:ariketa1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E1BF15-EE09-4996-AD9E-1AA7667EAFEC}|Ariketa1\\Ariketa1.csproj|d:\\interfaces\\ariketa1\\ariketa1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55E1BF15-EE09-4996-AD9E-1AA7667EAFEC}|Ariketa1\\Ariketa1.csproj|solutionrelative:ariketa1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Interfaces\\Ariketa1\\Ariketa1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Ariketa1\\MainWindow.xaml",
+              "ToolTip": "D:\\Interfaces\\Ariketa1\\Ariketa1\\MainWindow.xaml",
+              "RelativeToolTip": "Ariketa1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-08T11:19:53.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Interfaces\\Ariketa1\\Ariketa1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Ariketa1\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Interfaces\\Ariketa1\\Ariketa1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Ariketa1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvygAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T11:19:51.952Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
