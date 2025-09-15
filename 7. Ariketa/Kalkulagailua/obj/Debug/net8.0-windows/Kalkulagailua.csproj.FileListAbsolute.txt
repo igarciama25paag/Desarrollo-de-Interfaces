@@ -1,0 +1,42 @@
+D:\Interfaces\Kalkulagailua\Kalkulagailua\bin\Debug\net8.0-windows\Kalkulagailua.exe
+D:\Interfaces\Kalkulagailua\Kalkulagailua\bin\Debug\net8.0-windows\Kalkulagailua.deps.json
+D:\Interfaces\Kalkulagailua\Kalkulagailua\bin\Debug\net8.0-windows\Kalkulagailua.runtimeconfig.json
+D:\Interfaces\Kalkulagailua\Kalkulagailua\bin\Debug\net8.0-windows\Kalkulagailua.dll
+D:\Interfaces\Kalkulagailua\Kalkulagailua\bin\Debug\net8.0-windows\Kalkulagailua.pdb
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\App.g.cs
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua_MarkupCompile.cache
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua_MarkupCompile.lref
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.g.resources
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.GeneratedMSBuildEditorConfig.editorconfig
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.AssemblyInfoInputs.cache
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.AssemblyInfo.cs
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.csproj.CoreCompileInputs.cache
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.sourcelink.json
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.dll
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\refint\Kalkulagailua.dll
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.pdb
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.genruntimeconfig.cache
+D:\Interfaces\Kalkulagailua\Kalkulagailua\obj\Debug\net8.0-windows\ref\Kalkulagailua.dll
+D:\Interfaces\7. Ariketa\Kalkulagailua\bin\Debug\net8.0-windows\Kalkulagailua.exe
+D:\Interfaces\7. Ariketa\Kalkulagailua\bin\Debug\net8.0-windows\Kalkulagailua.deps.json
+D:\Interfaces\7. Ariketa\Kalkulagailua\bin\Debug\net8.0-windows\Kalkulagailua.runtimeconfig.json
+D:\Interfaces\7. Ariketa\Kalkulagailua\bin\Debug\net8.0-windows\Kalkulagailua.dll
+D:\Interfaces\7. Ariketa\Kalkulagailua\bin\Debug\net8.0-windows\Kalkulagailua.pdb
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\App.g.cs
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua_MarkupCompile.cache
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua_MarkupCompile.lref
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.g.resources
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.GeneratedMSBuildEditorConfig.editorconfig
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.AssemblyInfoInputs.cache
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.AssemblyInfo.cs
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.csproj.CoreCompileInputs.cache
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.sourcelink.json
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.dll
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\refint\Kalkulagailua.dll
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.pdb
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\Kalkulagailua.genruntimeconfig.cache
+D:\Interfaces\7. Ariketa\Kalkulagailua\obj\Debug\net8.0-windows\ref\Kalkulagailua.dll

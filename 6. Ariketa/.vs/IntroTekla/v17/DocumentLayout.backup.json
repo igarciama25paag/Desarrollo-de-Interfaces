@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Interfaces\\6. Ariketa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{466B4DEF-66A0-492D-80E2-91D4E9734A09}|IntroTekla\\IntroTekla.csproj|d:\\interfaces\\6. ariketa\\introtekla\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{466B4DEF-66A0-492D-80E2-91D4E9734A09}|IntroTekla\\IntroTekla.csproj|solutionrelative:introtekla\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{466B4DEF-66A0-492D-80E2-91D4E9734A09}|IntroTekla\\IntroTekla.csproj|d:\\interfaces\\6. ariketa\\introtekla\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{466B4DEF-66A0-492D-80E2-91D4E9734A09}|IntroTekla\\IntroTekla.csproj|solutionrelative:introtekla\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Interfaces\\6. Ariketa\\IntroTekla\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "IntroTekla\\MainWindow.xaml",
+              "ToolTip": "D:\\Interfaces\\6. Ariketa\\IntroTekla\\MainWindow.xaml",
+              "RelativeToolTip": "IntroTekla\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-15T07:52:29.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Interfaces\\6. Ariketa\\IntroTekla\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "IntroTekla\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Interfaces\\6. Ariketa\\IntroTekla\\MainWindow.xaml.cs",
+              "RelativeToolTip": "IntroTekla\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:52:29.335Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

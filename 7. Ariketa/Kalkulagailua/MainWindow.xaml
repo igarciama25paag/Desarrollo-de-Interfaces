@@ -1,0 +1,34 @@
+﻿<Window x:Class="Kalkulagailua.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kalkulagailua"
+        mc:Ignorable="d"
+        Title="Kalkulagailua" Height="270" Width="283" ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="kal" Text="0" Focusable="False" HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" TextAlignment="Right" FontSize="18" VerticalAlignment="Top" Width="210"/>
+
+        <Button Click="b7" Content="7" HorizontalAlignment="Left" Margin="28,74,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="b8" Content="8" HorizontalAlignment="Left" Margin="72,74,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="b9" Content="9" HorizontalAlignment="Left" Margin="116,74,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="b4" Content="4" HorizontalAlignment="Left" Margin="28,110,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="b5" Content="5" HorizontalAlignment="Left" Margin="72,110,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="b6" Content="6" HorizontalAlignment="Left" Margin="116,110,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="b1" Content="1" HorizontalAlignment="Left" Margin="28,148,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="b2" Content="2" HorizontalAlignment="Left" Margin="72,148,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="b3" Content="3" HorizontalAlignment="Left" Margin="116,148,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="b0" Content="0" HorizontalAlignment="Left" Margin="28,185,0,0" VerticalAlignment="Top" Width="66"/>
+        <Button Click="bdot" Content="." HorizontalAlignment="Left" Margin="116,185,0,0" VerticalAlignment="Top" Width="22"/>
+
+        <Button Click="clear" Content="C" HorizontalAlignment="Left" Margin="174,74,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="clearElement" Content="CE" HorizontalAlignment="Left" Margin="218,74,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="zat" Content="/" HorizontalAlignment="Left" Margin="174,110,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="ken" Content="-" HorizontalAlignment="Left" Margin="218,110,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="bid" Content="*" HorizontalAlignment="Left" Margin="174,148,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="gei" Content="+" HorizontalAlignment="Left" Margin="218,148,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="ebatzi" Content="=" HorizontalAlignment="Left" Margin="174,185,0,0" VerticalAlignment="Top" Width="22"/>
+        <Button Click="hon" Content="%" HorizontalAlignment="Left" Margin="218,185,0,0" VerticalAlignment="Top" Width="22"/>
+
+    </Grid>
+</Window>

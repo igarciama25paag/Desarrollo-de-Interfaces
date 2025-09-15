@@ -1,0 +1,27 @@
+﻿<Window x:Class="LetraMotak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LetraMotak"
+        mc:Ignorable="d"
+        Title="Letra Motak" Height="300" Width="400">
+    <Grid>
+        <TextBlock x:Name="probaTextua" FontFamily="Arial" HorizontalAlignment="Center" Margin="0,18,0,0" TextWrapping="Wrap" Text="Proba Textua" VerticalAlignment="Top"/>
+
+        <Button Click="verdana" Content="Verdana" HorizontalAlignment="Left" Margin="34,50,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="courier" Content="Courier" HorizontalAlignment="Left" Margin="34,83,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="tatxatu" Content="Tatxatu" HorizontalAlignment="Left" Margin="208,50,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button Click="azpimarra" Content="Azpimarra" HorizontalAlignment="Left" Margin="208,83,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="negrita" Content="Negrita" HorizontalAlignment="Left" Margin="122,50,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button Click="kursiba" Content="Kursiba" HorizontalAlignment="Left" Margin="122,83,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="handitu" Content="+Tamaina" HorizontalAlignment="Left" Margin="294,50,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button Click="txikitu" Content="-Tamaina" HorizontalAlignment="Left" Margin="294,83,0,0" VerticalAlignment="Top" Width="74"/>
+
+        <TextBox x:Name="textua" HorizontalAlignment="Left" Margin="79,138,0,0" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" VerticalAlignment="Top" Width="151" Height="72"/>
+        <Button Click="aukeratu" Content="Aukeratu" HorizontalAlignment="Left" Margin="245,138,0,0" VerticalAlignment="Top" Width="70"/>
+        <Button Click="itxi" Content="Itxi" HorizontalAlignment="Left" Margin="245,190,0,0" VerticalAlignment="Top"  Width="70"/>
+        <TextBlock x:Name="aukeraMezua" HorizontalAlignment="Center" Margin="0,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
