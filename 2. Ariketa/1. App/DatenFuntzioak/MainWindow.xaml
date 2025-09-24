@@ -1,0 +1,27 @@
+﻿<Window x:Class="DatenFuntzioak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatenFuntzioak"
+        mc:Ignorable="d"
+        Title="Daten Funtzioak" Height="350" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Right" Margin="0,50,630,0" TextWrapping="Wrap" Text="Orain" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,90,630,0" TextWrapping="Wrap" Text="Gaur" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,130,630,0" TextWrapping="Wrap" Text="Gaurko Ordua" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,170,630,0" TextWrapping="Wrap" Text="Data Gehitu" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,210,630,0" TextWrapping="Wrap" Text="Datak Ezberdindu" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="orain" HorizontalAlignment="Right" Margin="0,50,80,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="495"/>
+        <TextBox x:Name="gaur" HorizontalAlignment="Right" Margin="0,90,80,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="495"/>
+        <TextBox x:Name="gaurkoOrdua" HorizontalAlignment="Right" Margin="0,130,80,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="495"/>
+        <TextBox x:Name="dataGehitu" PreviewMouseDown="dataGehituClick" HorizontalAlignment="Right" Margin="0,170,80,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="495"/>
+        <TextBox x:Name="datakEzberdindu" PreviewMouseDown="datakEzberdinduClick" HorizontalAlignment="Right" Margin="0,210,80,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="495"/>
+
+        <Button Click="exekutatu" Content="Exekutatu" HorizontalAlignment="Right" Margin="0,260,480,0" VerticalAlignment="Top" Width="150"/>
+        <Button Click="garbitu" Content="Garbitu" HorizontalAlignment="Right" Margin="0,260,280,0" VerticalAlignment="Top" Width="150"/>
+        <Button Click="itxi" Content="Itxi" HorizontalAlignment="Right" Margin="0,260,80,0" VerticalAlignment="Top" Width="150"/>
+
+    </Grid>
+</Window>

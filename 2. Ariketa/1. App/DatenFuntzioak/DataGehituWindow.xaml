@@ -1,0 +1,17 @@
+﻿<Window x:Class="DatenFuntzioak.DataGehituWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatenFuntzioak"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="Data Gehitu" SizeToContent="Height" Width="300">
+    <Grid>
+        <TextBlock x:Name="textua" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Sartu data bat formatu honekin: ee/hh/uu" VerticalAlignment="Top" Margin="0,10,0,0"/>
+        <TextBox x:Name="input" HorizontalAlignment="Center" TextWrapping="Wrap" Margin="0,31,0,0" VerticalAlignment="Top" Width="226"/>
+        <Button Click="ados" Content="Ados" HorizontalAlignment="Center" Margin="0,56,100,15" VerticalAlignment="Top" Width="70"/>
+        <Button Click="itxi" Content="Itxi" HorizontalAlignment="Center" Margin="100,56,0,15" VerticalAlignment="Top" Width="70"/>
+
+    </Grid>
+</Window>
