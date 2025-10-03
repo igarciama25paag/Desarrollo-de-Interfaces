@@ -22,6 +22,19 @@ namespace DietenKalkulua
             InitializeComponent();
         }
 
+        private void KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+                (sender as UIElement)?.MoveFocus(new TraversalRequest(FocusNavigationDirection.Next));
+        }
+
+        private void gosariaOn(object sender, RoutedEventArgs e) => gosaria.Text = "3";
+        private void gosariaOff(object sender, RoutedEventArgs e) => gosaria.Text = string.Empty;
+        private void bazkariaOn(object sender, RoutedEventArgs e) => bazkaria.Text = "9";
+        private void bazkariaOff(object sender, RoutedEventArgs e) => bazkaria.Text = string.Empty;
+        private void afariaOn(object sender, RoutedEventArgs e) => afaria.Text = "15.5";
+        private void afariaOff(object sender, RoutedEventArgs e) => afaria.Text = string.Empty;
+
         private void totalaAldatu(object sender, TextChangedEventArgs e)
         {
             double N = 0, result;
@@ -33,13 +46,6 @@ namespace DietenKalkulua
             if (Double.TryParse(lanOrduak.Text, out result)) N += result * 42;
             total.Text = N.ToString() + " €";
         }
-
-        private void gosariaOn(object sender, RoutedEventArgs e) => gosaria.Text = "3";
-        private void gosariaOff(object sender, RoutedEventArgs e) => gosaria.Text = string.Empty;
-        private void bazkariaOn(object sender, RoutedEventArgs e) => bazkaria.Text = "9";
-        private void bazkariaOff(object sender, RoutedEventArgs e) => bazkaria.Text = string.Empty;
-        private void afariaOn(object sender, RoutedEventArgs e) => afaria.Text = "15.5";
-        private void afariaOff(object sender, RoutedEventArgs e) => afaria.Text = string.Empty;
 
         private void garbitu(object sender, RoutedEventArgs e)
         {

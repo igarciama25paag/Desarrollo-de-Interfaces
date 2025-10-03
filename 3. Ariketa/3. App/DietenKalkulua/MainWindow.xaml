@@ -9,20 +9,20 @@
     <Grid>
         <GroupBox Header="Dietak" Margin="57,36,570,229">
             <StackPanel Margin="20">
-                <CheckBox x:Name="gosariaCheck" Content="Gosaria" Margin="5" Checked="gosariaOn" Unchecked="gosariaOff"/>
-                <CheckBox x:Name="bazkariaCheck" Content="Bazkaria" Margin="5" Checked="bazkariaOn" Unchecked="bazkariaOff"/>
-                <CheckBox x:Name="afariaCheck" Content="Afaria" Margin="5" Checked="afariaOn" Unchecked="afariaOff"/>
+                <CheckBox x:Name="gosariaCheck" KeyDown="KeyDown" Content="Gosaria" Margin="5" Checked="gosariaOn" Unchecked="gosariaOff"/>
+                <CheckBox x:Name="bazkariaCheck" KeyDown="KeyDown" Content="Bazkaria" Margin="5" Checked="bazkariaOn" Unchecked="bazkariaOff"/>
+                <CheckBox x:Name="afariaCheck" KeyDown="KeyDown" Content="Afaria" Margin="5" Checked="afariaOn" Unchecked="afariaOff"/>
             </StackPanel>
         </GroupBox>
         <GroupBox Header="Bidaiak" Margin="262,36,307,256">
             <StackPanel Margin="10">
                 <StackPanel Margin="0,10" Orientation="Horizontal">
                     <TextBlock Text="KM" Width="75"/>
-                    <TextBox x:Name="km" Width="100" TextChanged="totalaAldatu"/>
+                    <TextBox x:Name="km" KeyDown="KeyDown" Width="100" TextChanged="totalaAldatu"/>
                 </StackPanel>
                 <StackPanel Margin="0,10" Orientation="Horizontal">
                     <TextBlock Text="Orduak" Width="75"/>
-                    <TextBox x:Name="bidaiOrduak" Width="100" TextChanged="totalaAldatu"/>
+                    <TextBox x:Name="bidaiOrduak" KeyDown="KeyDown" Width="100" TextChanged="totalaAldatu"/>
                 </StackPanel>
             </StackPanel>
         </GroupBox>
@@ -30,7 +30,7 @@
             <StackPanel Margin="10">
                 <StackPanel Margin="0,10" Orientation="Horizontal">
                     <TextBlock Text="Orduak" Width="75"/>
-                    <TextBox x:Name="lanOrduak" Width="100" TextChanged="totalaAldatu"/>
+                    <TextBox x:Name="lanOrduak" KeyDown="KeyDown" Width="100" TextChanged="totalaAldatu"/>
                 </StackPanel>
             </StackPanel>
         </GroupBox>
