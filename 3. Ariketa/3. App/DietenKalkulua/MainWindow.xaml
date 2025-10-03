@@ -1,0 +1,53 @@
+﻿<Window x:Class="DietenKalkulua.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DietenKalkulua"
+        mc:Ignorable="d"
+        Title="Dieten Kalkulua" Height="450" Width="800">
+    <Grid>
+        <GroupBox Header="Dietak" Margin="57,36,570,229">
+            <StackPanel Margin="20">
+                <CheckBox x:Name="gosariaCheck" Content="Gosaria" Margin="5" Checked="gosariaOn" Unchecked="gosariaOff"/>
+                <CheckBox x:Name="bazkariaCheck" Content="Bazkaria" Margin="5" Checked="bazkariaOn" Unchecked="bazkariaOff"/>
+                <CheckBox x:Name="afariaCheck" Content="Afaria" Margin="5" Checked="afariaOn" Unchecked="afariaOff"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Bidaiak" Margin="262,36,307,256">
+            <StackPanel Margin="10">
+                <StackPanel Margin="0,10" Orientation="Horizontal">
+                    <TextBlock Text="KM" Width="75"/>
+                    <TextBox x:Name="km" Width="100" TextChanged="totalaAldatu"/>
+                </StackPanel>
+                <StackPanel Margin="0,10" Orientation="Horizontal">
+                    <TextBlock Text="Orduak" Width="75"/>
+                    <TextBox x:Name="bidaiOrduak" Width="100" TextChanged="totalaAldatu"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Lana" Margin="530,36,47,256">
+            <StackPanel Margin="10">
+                <StackPanel Margin="0,10" Orientation="Horizontal">
+                    <TextBlock Text="Orduak" Width="75"/>
+                    <TextBox x:Name="lanOrduak" Width="100" TextChanged="totalaAldatu"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <Separator Margin="93,217,76,186"/>
+
+        <TextBox x:Name="gosaria" TextChanged="totalaAldatu" IsEnabled="False" HorizontalAlignment="Left" Margin="131,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="bazkaria" TextChanged="totalaAldatu" IsEnabled="False" HorizontalAlignment="Center" Margin="0,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="afaria" TextChanged="totalaAldatu" IsEnabled="False" HorizontalAlignment="Left" Margin="559,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <Separator Margin="93,302,76,101"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="492,336,0,0" TextWrapping="Wrap" Text="TOTAL" VerticalAlignment="Top" FontWeight="Black" FontSize="16"/>
+        <TextBox x:Name="total" Text="0 €" Background="#FF95C2FF" IsEnabled="False" HorizontalAlignment="Left" Margin="566,338,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <Button Click="garbitu" Content="Garbitu" HorizontalAlignment="Left" Margin="98,358,0,0" VerticalAlignment="Top" Width="100" Height="25"/>
+        <Button Click="itxi" Content="Itxi" HorizontalAlignment="Left" Margin="262,358,0,0" VerticalAlignment="Top" Width="100" Height="25"/>
+
+    </Grid>
+</Window>

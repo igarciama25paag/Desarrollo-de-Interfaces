@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Interfaces\\3. Ariketa\\1. App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{431645E7-EF3C-4BB2-93A7-0D347B8853DA}|IrudiakEtaComboBox\\IrudiakEtaComboBox.csproj|d:\\interfaces\\3. ariketa\\1. app\\irudiaketacombobox\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{431645E7-EF3C-4BB2-93A7-0D347B8853DA}|IrudiakEtaComboBox\\IrudiakEtaComboBox.csproj|solutionrelative:irudiaketacombobox\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{431645E7-EF3C-4BB2-93A7-0D347B8853DA}|IrudiakEtaComboBox\\IrudiakEtaComboBox.csproj|d:\\interfaces\\3. ariketa\\1. app\\irudiaketacombobox\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{431645E7-EF3C-4BB2-93A7-0D347B8853DA}|IrudiakEtaComboBox\\IrudiakEtaComboBox.csproj|solutionrelative:irudiaketacombobox\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Interfaces\\3. Ariketa\\1. App\\IrudiakEtaComboBox\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "IrudiakEtaComboBox\\MainWindow.xaml",
+              "ToolTip": "D:\\Interfaces\\3. Ariketa\\1. App\\IrudiakEtaComboBox\\MainWindow.xaml",
+              "RelativeToolTip": "IrudiakEtaComboBox\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-24T06:56:54.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Interfaces\\3. Ariketa\\1. App\\IrudiakEtaComboBox\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "IrudiakEtaComboBox\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Interfaces\\3. Ariketa\\1. App\\IrudiakEtaComboBox\\MainWindow.xaml.cs",
+              "RelativeToolTip": "IrudiakEtaComboBox\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwB8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T06:56:54.096Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+﻿<Window x:Class="IrudiakEtaComboBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IrudiakEtaComboBox"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,30,0,0" TextWrapping="Wrap" Text="Nire Irudiak" VerticalAlignment="Top" FontWeight="Black" FontSize="24"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="29,85,0,0" TextWrapping="Wrap" Text="1. Fila" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboImgs" HorizontalAlignment="Left" Height="25" Margin="29,112,0,0" VerticalAlignment="Top" Width="150" SelectionChanged="comboImgs_SelectionChanged">
+            <ComboBoxItem Content="Irudia 1" Tag="/img/esqueleto_diabolico.jpg"/>
+            <ComboBoxItem Content="Irudia 2" Tag="/img/esqueleto_diabolico1.jpg"/>
+            <ComboBoxItem Content="Irudia 3" Tag="/img/esqueleto_diabolico2.jpg"/>
+        </ComboBox>
+
+        <GroupBox HorizontalAlignment="Left" Height="138" Header="2. Fila" Margin="29,190,0,0" VerticalAlignment="Top" Width="107">
+            <StackPanel HorizontalAlignment="Left" Height="94" VerticalAlignment="Top" Width="97">
+                <CheckBox Content="1. Irudia" Margin="10" Checked="irudia1Bai" Unchecked="irudia1Ez"/>
+                <CheckBox Content="2. Irudia" Margin="10" Checked="irudia2Bai" Unchecked="irudia2Ez"/>
+                <CheckBox Content="3. Irudia" Margin="10" Checked="irudia3Bai" Unchecked="irudia3Ez"/>
+            </StackPanel>
+        </GroupBox>
+
+        <Grid HorizontalAlignment="Left" Height="270" Margin="225,85,0,0" VerticalAlignment="Top" Width="500">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.Resources>
+                <Style TargetType="{x:Type Image}">
+                    <Setter Property="Margin" Value="5" />
+                </Style>
+            </Grid.Resources>
+
+            <Image x:Name="img1" Grid.Column="0" Grid.Row="0"/>
+            <Image x:Name="img2" Grid.Column="1" Grid.Row="0"/>
+            <Image x:Name="img3" Grid.Column="2" Grid.Row="0"/>
+            <Image x:Name="img4" Grid.Column="0" Grid.Row="1"/>
+            <Image x:Name="img5" Grid.Column="1" Grid.Row="1"/>
+            <Image x:Name="img6" Grid.Column="2" Grid.Row="1"/>
+        </Grid>
+
+        <Button Content="Itxi" HorizontalAlignment="Center" Margin="0,378,0,0" VerticalAlignment="Top" Height="30" Width="200" Click="itxi"/>
+
+    </Grid>
+</Window>

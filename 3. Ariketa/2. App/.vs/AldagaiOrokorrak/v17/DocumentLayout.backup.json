@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Interfaces\\3. Ariketa\\2. App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97E476F9-020C-4974-A766-EC7AD3EC8A4E}|AldagaiOrokorrak\\AldagaiOrokorrak.csproj|d:\\interfaces\\3. ariketa\\2. app\\aldagaiorokorrak\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E476F9-020C-4974-A766-EC7AD3EC8A4E}|AldagaiOrokorrak\\AldagaiOrokorrak.csproj|solutionrelative:aldagaiorokorrak\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E476F9-020C-4974-A766-EC7AD3EC8A4E}|AldagaiOrokorrak\\AldagaiOrokorrak.csproj|d:\\interfaces\\3. ariketa\\2. app\\aldagaiorokorrak\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97E476F9-020C-4974-A766-EC7AD3EC8A4E}|AldagaiOrokorrak\\AldagaiOrokorrak.csproj|solutionrelative:aldagaiorokorrak\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E476F9-020C-4974-A766-EC7AD3EC8A4E}|AldagaiOrokorrak\\AldagaiOrokorrak.csproj|d:\\interfaces\\3. ariketa\\2. app\\aldagaiorokorrak\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E476F9-020C-4974-A766-EC7AD3EC8A4E}|AldagaiOrokorrak\\AldagaiOrokorrak.csproj|solutionrelative:aldagaiorokorrak\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E476F9-020C-4974-A766-EC7AD3EC8A4E}|AldagaiOrokorrak\\AldagaiOrokorrak.csproj|d:\\interfaces\\3. ariketa\\2. app\\aldagaiorokorrak\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97E476F9-020C-4974-A766-EC7AD3EC8A4E}|AldagaiOrokorrak\\AldagaiOrokorrak.csproj|solutionrelative:aldagaiorokorrak\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E476F9-020C-4974-A766-EC7AD3EC8A4E}|AldagaiOrokorrak\\AldagaiOrokorrak.csproj|d:\\interfaces\\3. ariketa\\2. app\\aldagaiorokorrak\\erabiltzailea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E476F9-020C-4974-A766-EC7AD3EC8A4E}|AldagaiOrokorrak\\AldagaiOrokorrak.csproj|solutionrelative:aldagaiorokorrak\\erabiltzailea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "D:\\Interfaces\\3. Ariketa\\2. App\\AldagaiOrokorrak\\Window1.xaml",
+              "RelativeDocumentMoniker": "AldagaiOrokorrak\\Window1.xaml",
+              "ToolTip": "D:\\Interfaces\\3. Ariketa\\2. App\\AldagaiOrokorrak\\Window1.xaml",
+              "RelativeToolTip": "AldagaiOrokorrak\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T06:16:26.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "D:\\Interfaces\\3. Ariketa\\2. App\\AldagaiOrokorrak\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "AldagaiOrokorrak\\Window1.xaml.cs",
+              "ToolTip": "D:\\Interfaces\\3. Ariketa\\2. App\\AldagaiOrokorrak\\Window1.xaml.cs",
+              "RelativeToolTip": "AldagaiOrokorrak\\Window1.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAjwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T06:20:25.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Erabiltzailea.cs",
+              "DocumentMoniker": "D:\\Interfaces\\3. Ariketa\\2. App\\AldagaiOrokorrak\\Erabiltzailea.cs",
+              "RelativeDocumentMoniker": "AldagaiOrokorrak\\Erabiltzailea.cs",
+              "ToolTip": "D:\\Interfaces\\3. Ariketa\\2. App\\AldagaiOrokorrak\\Erabiltzailea.cs",
+              "RelativeToolTip": "AldagaiOrokorrak\\Erabiltzailea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T06:11:06.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Interfaces\\3. Ariketa\\2. App\\AldagaiOrokorrak\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AldagaiOrokorrak\\MainWindow.xaml",
+              "ToolTip": "D:\\Interfaces\\3. Ariketa\\2. App\\AldagaiOrokorrak\\MainWindow.xaml",
+              "RelativeToolTip": "AldagaiOrokorrak\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-01T05:58:57.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Interfaces\\3. Ariketa\\2. App\\AldagaiOrokorrak\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AldagaiOrokorrak\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Interfaces\\3. Ariketa\\2. App\\AldagaiOrokorrak\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AldagaiOrokorrak\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAWwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T05:58:56.714Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
