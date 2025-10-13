@@ -1,0 +1,51 @@
+﻿<Window x:Class="AtazaKudeatzailea.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AtazaKudeatzailea"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Ataza-Kudeatzailea" Height="450" Width="800">
+
+    <Window.DataContext>
+        <local:MainDataGridModel />
+    </Window.DataContext>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid
+            x:Name="atazaGrid"
+            Grid.Row="0"
+            ItemsSource="{Binding atazak}"
+            AutoGenerateColumns="False"
+            GridLinesVisibility="None"
+            IsReadOnly="True">
+            
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Izenburua" Binding="{Binding izenburua}" Width="3*"/>
+                <DataGridTextColumn Header="Lehentasuna" Binding="{Binding lehentasuna}" Width="*"/>
+                <DataGridTextColumn Header="Muga-eguna" Binding="{Binding mugaEguna, StringFormat=d}" Width="*"/>
+                <DataGridCheckBoxColumn Header="Egoera" Binding="{Binding egoera}" Width="*"/>
+            </DataGrid.Columns>
+            
+            <DataGrid.Resources>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                </Style>
+            </DataGrid.Resources>
+            
+        </DataGrid>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Click="berria" Content="Berria" Width="80" Margin="20,15"/>
+            <Button Click="editatu" Content="Editatu" Width="80" Margin="20,15"/>
+            <Button Click="ezabatu" Content="Ezabatu" Width="80" Margin="20,15"/>
+            <Button Click="irten" Content="Irten" Width="80" Margin="20,15"/>
+        </StackPanel>
+    </Grid>
+</Window>

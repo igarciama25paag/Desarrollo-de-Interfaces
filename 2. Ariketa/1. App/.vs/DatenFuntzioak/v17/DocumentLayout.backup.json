@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\Interfaces\\2. Ariketa\\1. App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7B8D152-17E6-4035-AC6D-5296A1A994F6}|DatenFuntzioak\\DatenFuntzioak.csproj|d:\\interfaces\\2. ariketa\\1. app\\datenfuntzioak\\datakezberdinduwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B8D152-17E6-4035-AC6D-5296A1A994F6}|DatenFuntzioak\\DatenFuntzioak.csproj|solutionrelative:datenfuntzioak\\datakezberdinduwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B8D152-17E6-4035-AC6D-5296A1A994F6}|DatenFuntzioak\\DatenFuntzioak.csproj|d:\\interfaces\\2. ariketa\\1. app\\datenfuntzioak\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A7B8D152-17E6-4035-AC6D-5296A1A994F6}|DatenFuntzioak\\DatenFuntzioak.csproj|solutionrelative:datenfuntzioak\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B8D152-17E6-4035-AC6D-5296A1A994F6}|DatenFuntzioak\\DatenFuntzioak.csproj|d:\\interfaces\\2. ariketa\\1. app\\datenfuntzioak\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B8D152-17E6-4035-AC6D-5296A1A994F6}|DatenFuntzioak\\DatenFuntzioak.csproj|solutionrelative:datenfuntzioak\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B8D152-17E6-4035-AC6D-5296A1A994F6}|DatenFuntzioak\\DatenFuntzioak.csproj|d:\\interfaces\\2. ariketa\\1. app\\datenfuntzioak\\datakezberdinduwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A7B8D152-17E6-4035-AC6D-5296A1A994F6}|DatenFuntzioak\\DatenFuntzioak.csproj|solutionrelative:datenfuntzioak\\datakezberdinduwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A7B8D152-17E6-4035-AC6D-5296A1A994F6}|DatenFuntzioak\\DatenFuntzioak.csproj|d:\\interfaces\\2. ariketa\\1. app\\datenfuntzioak\\datagehituwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B8D152-17E6-4035-AC6D-5296A1A994F6}|DatenFuntzioak\\DatenFuntzioak.csproj|solutionrelative:datenfuntzioak\\datagehituwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DatakEzberdinduWindow.xaml",
-              "DocumentMoniker": "D:\\Interfaces\\2. Ariketa\\1. App\\DatenFuntzioak\\DatakEzberdinduWindow.xaml",
-              "RelativeDocumentMoniker": "DatenFuntzioak\\DatakEzberdinduWindow.xaml",
-              "ToolTip": "D:\\Interfaces\\2. Ariketa\\1. App\\DatenFuntzioak\\DatakEzberdinduWindow.xaml",
-              "RelativeToolTip": "DatenFuntzioak\\DatakEzberdinduWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-22T10:53:52.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DatakEzberdinduWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Interfaces\\2. Ariketa\\1. App\\DatenFuntzioak\\DatakEzberdinduWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DatenFuntzioak\\DatakEzberdinduWindow.xaml.cs",
-              "ToolTip": "D:\\Interfaces\\2. Ariketa\\1. App\\DatenFuntzioak\\DatakEzberdinduWindow.xaml.cs",
-              "RelativeToolTip": "DatenFuntzioak\\DatakEzberdinduWindow.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "Title": "DataGehituWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Interfaces\\2. Ariketa\\1. App\\DatenFuntzioak\\DataGehituWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DatenFuntzioak\\DataGehituWindow.xaml.cs",
+              "ToolTip": "D:\\Interfaces\\2. Ariketa\\1. App\\DatenFuntzioak\\DataGehituWindow.xaml.cs",
+              "RelativeToolTip": "DatenFuntzioak\\DataGehituWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T10:54:53.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Interfaces\\2. Ariketa\\1. App\\DatenFuntzioak\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "DatenFuntzioak\\MainWindow.xaml",
-              "ToolTip": "D:\\Interfaces\\2. Ariketa\\1. App\\DatenFuntzioak\\MainWindow.xaml",
-              "RelativeToolTip": "DatenFuntzioak\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-17T06:17:47.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Interfaces\\2. Ariketa\\1. App\\DatenFuntzioak\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DatenFuntzioak\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Interfaces\\2. Ariketa\\1. App\\DatenFuntzioak\\MainWindow.xaml.cs",
-              "RelativeToolTip": "DatenFuntzioak\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T06:17:45.089Z",
+              "WhenOpened": "2025-09-22T11:34:26.674Z",
               "EditorCaption": ""
             }
           ]
