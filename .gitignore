@@ -1,5 +1,9 @@
 *.pdf
 */*.pdf
+*.docx
+*/*.docx
+*.pptx
+*/*.pptx
 */*/*/*.vs
 */*/*/bin
 */*/*/obj
