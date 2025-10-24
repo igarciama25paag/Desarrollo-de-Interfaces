@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "GarraioenLekuErreserba.csproj",
+        "Action": "Start",
+        "DebugTarget": "GarraioenLekuErreserba"
+      },
+      {
+        "Path": "..\\LekuErreserba\\LekuErreserba.csproj",
+        "Action": "Start",
+        "DebugTarget": "LekuErreserba"
+      }
+    ]
+  }
+]

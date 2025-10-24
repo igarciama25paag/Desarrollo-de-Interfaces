@@ -1,0 +1,37 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GarraioenLekuErreserba"
+      xmlns:EserlekuakLibrary="clr-namespace:EserlekuakLibrary;assembly=EserlekuakLibrary" x:Class="GarraioenLekuErreserba.AutobusOrria"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="500"
+      Title="Autobus Erreserba">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="AUTOBUSA" FontSize="24" TextAlignment="Center" Margin="20"/>
+
+        <StackPanel x:Name="eserlekuak" Grid.Column="0" Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+        <DockPanel Grid.Column="1" Grid.Row="1" Margin="5">
+            <TextBlock Text="ERRESERBAK" Margin="0,0,0,20" TextAlignment="Center" FontWeight="Bold" DockPanel.Dock="Top"/>
+            <StackPanel DockPanel.Dock="Bottom">
+                <Button Content="Erreserbatu" Click="Erreserbatu" Margin="5"/>
+                <Button Content="Erreserba ezabatu" Click="ErreserbaEzabatu" Margin="5"/>
+            </StackPanel>
+            <ListBox x:Name="erreserbak" DockPanel.Dock="Right"/>
+        </DockPanel>
+
+    </Grid>
+</Page>

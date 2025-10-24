@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GarraioenLekuErreserba/1.0.0": {
+        "dependencies": {
+          "EserlekuakLibrary": "1.0.0"
+        },
+        "runtime": {
+          "GarraioenLekuErreserba.dll": {}
+        }
+      },
+      "EserlekuakLibrary/1.0.0": {
+        "runtime": {
+          "EserlekuakLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GarraioenLekuErreserba/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EserlekuakLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

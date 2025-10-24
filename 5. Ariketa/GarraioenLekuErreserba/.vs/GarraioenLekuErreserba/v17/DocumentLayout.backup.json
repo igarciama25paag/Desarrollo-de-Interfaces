@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Interfaces\\5. Ariketa\\GarraioenLekuErreserba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}|GarraioenLekuErreserba.csproj|d:\\interfaces\\5. ariketa\\garraioenlekuerreserba\\autobusorria.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}|GarraioenLekuErreserba.csproj|solutionrelative:autobusorria.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}|GarraioenLekuErreserba.csproj|d:\\interfaces\\5. ariketa\\garraioenlekuerreserba\\autobusorria.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}|GarraioenLekuErreserba.csproj|solutionrelative:autobusorria.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}|GarraioenLekuErreserba.csproj|d:\\interfaces\\5. ariketa\\garraioenlekuerreserba\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}|GarraioenLekuErreserba.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}|GarraioenLekuErreserba.csproj|d:\\interfaces\\5. ariketa\\garraioenlekuerreserba\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}|GarraioenLekuErreserba.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutobusOrria.xaml",
+              "DocumentMoniker": "D:\\Interfaces\\5. Ariketa\\GarraioenLekuErreserba\\AutobusOrria.xaml",
+              "RelativeDocumentMoniker": "AutobusOrria.xaml",
+              "ToolTip": "D:\\Interfaces\\5. Ariketa\\GarraioenLekuErreserba\\AutobusOrria.xaml",
+              "RelativeToolTip": "AutobusOrria.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-24T08:30:34.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutobusOrria.xaml.cs",
+              "DocumentMoniker": "D:\\Interfaces\\5. Ariketa\\GarraioenLekuErreserba\\AutobusOrria.xaml.cs",
+              "RelativeDocumentMoniker": "AutobusOrria.xaml.cs",
+              "ToolTip": "D:\\Interfaces\\5. Ariketa\\GarraioenLekuErreserba\\AutobusOrria.xaml.cs",
+              "RelativeToolTip": "AutobusOrria.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwv1AAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T09:04:26.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Interfaces\\5. Ariketa\\GarraioenLekuErreserba\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Interfaces\\5. Ariketa\\GarraioenLekuErreserba\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-22T06:10:46.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Interfaces\\5. Ariketa\\GarraioenLekuErreserba\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Interfaces\\5. Ariketa\\GarraioenLekuErreserba\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T10:25:36.096Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

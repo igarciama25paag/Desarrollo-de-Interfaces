@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarraioenLekuErreserba", "GarraioenLekuErreserba.csproj", "{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EserlekuakLibrary", "..\EserlekuakLibrary\EserlekuakLibrary.csproj", "{DCA6FF49-38D3-44D6-BA5D-9966A3B5A9E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DD7EBD-FF56-4C78-976E-F52DD8BAB1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA6FF49-38D3-44D6-BA5D-9966A3B5A9E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA6FF49-38D3-44D6-BA5D-9966A3B5A9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA6FF49-38D3-44D6-BA5D-9966A3B5A9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA6FF49-38D3-44D6-BA5D-9966A3B5A9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF2424BF-02C1-4CFB-9588-912812D74CF2}
+	EndGlobalSection
+EndGlobal
