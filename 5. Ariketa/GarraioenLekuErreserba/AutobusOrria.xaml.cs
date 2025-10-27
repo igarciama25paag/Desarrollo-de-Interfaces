@@ -1,20 +1,9 @@
 ﻿using EserlekuakLibrary;
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace GarraioenLekuErreserba
 {
@@ -27,28 +16,35 @@ namespace GarraioenLekuErreserba
         private readonly int eserlekuWidth = 1;
         private readonly int eserlekuLength = 5;
         private readonly ArrayList eserlekuList = new();
-        private readonly ObservableCollection<Erreserba> erreserbakList = new();
+        private readonly ObservableCollection<ErreserbaManager.Erreserba> erreserbakList;
 
         public AutobusOrria()
         {
             InitializeComponent();
+            erreserbakList = ErreserbaManager.HartuAutobusErreserbak();
             erreserbak.ItemsSource = erreserbakList;
 
-            for (int i = 0; i < eserlekuLines; i++)
+            for (int i = 0; i < eserlekuLength; i++)
             {
-                if (i > 0) eserlekuak.Children.Add(new StackPanel() { Width = 50 });
+                StackPanel eserlekuPanel = new();
+                eserlekuPanel.Orientation = Orientation.Horizontal;
+                eserlekuak.Children.Add(eserlekuPanel);
 
-                for(int j = 0; j < eserlekuWidth; j++)
+                for (int j = 0; j < eserlekuLines; j++)
                 {
-                    StackPanel eserlekuPanel = new();
-                    eserlekuak.Children.Add(eserlekuPanel);
+                    if (j > 0) eserlekuPanel.Children.Add(new StackPanel() { Width = 50 });
 
-                    for(int k = 0; k < eserlekuLength; k++)
+                    for (int k = 0; k < eserlekuWidth; k++)
                     {
-                        EserlekuaButton e = new((eserlekuList.Count + 1).ToString(), false, 50);
-                        e.Margin = new Thickness(5);
-                        eserlekuList.Add(e);
-                        eserlekuPanel.Children.Add(e);
+                        EserlekuaButton eser = new((eserlekuList.Count + 1).ToString(), false, 50);
+                        eser.Margin = new Thickness(5);
+
+                        foreach (ErreserbaManager.Erreserba erre in erreserbakList)
+                            foreach (string izena in erre.Eserlekuak)
+                                if (eser.Izena == izena) eser.Erreserbatu(true);
+
+                        eserlekuList.Add(eser);
+                        eserlekuPanel.Children.Add(eser);
                     }
                 }
             }
@@ -61,32 +57,42 @@ namespace GarraioenLekuErreserba
             foreach(EserlekuaButton eserlekua in eserlekuList)
                 if(eserlekua.Aukeratuta) aukeratutakoEserlekuak.Add(eserlekua);
 
-            if (MessageBox.Show("Aukeratutako eserlekuak erreserbatu?",
+            if (aukeratutakoEserlekuak.Count == 0)
+                MessageBox.Show("Ez da eserlekurik aukeratu.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            else if(MessageBox.Show("Aukeratutako eserlekuak erreserbatu?",
                         "Eserlekuak erreserbatu",
                         MessageBoxButton.YesNo,
                         MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
-                String izena = "Err." + erreserbakList.Count + ":";
+                string izena = "Erreserba ";
+                var izenak = new List<string>();
                 foreach (EserlekuaButton eserlekua in aukeratutakoEserlekuak)
                 {
                     eserlekua.Erreserbatu(true);
+                    izenak.Add(eserlekua.Izena);
                     izena += " " + eserlekua.Izena;
                 }
-                erreserbakList.Add(new Erreserba(izena, aukeratutakoEserlekuak));
+                erreserbakList.Add(new ErreserbaManager.Erreserba(izena, izenak));
+                ErreserbaManager.GordeAutobusErreserbak(erreserbakList);
             }
         }
 
         private void ErreserbaEzabatu(object sender, RoutedEventArgs e)
         {
-            if (MessageBox.Show("Aukeratutako erreserba ezabatu?",
+            if(erreserbak.SelectedIndex == -1)
+                MessageBox.Show("Ez da erreserbarik aukeratu.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            else if (MessageBox.Show("Aukeratutako erreserba ezabatu?",
                     "Eserleku erreserba kendu",
                     MessageBoxButton.YesNo,
                     MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
                 int item = erreserbak.SelectedIndex;
-                foreach(EserlekuaButton eserlekua in erreserbakList.ElementAt(item).Eserlekuak)
-                    eserlekua.Erreserbatu(false);
+                foreach (string eserlekuIzena in erreserbakList.ElementAt(item).Eserlekuak)
+                    foreach (EserlekuaButton eserlekua in eserlekuList)
+                        if (eserlekua.Izena == eserlekuIzena) eserlekua.Erreserbatu(false);
+
                 erreserbakList.RemoveAt(item);
+                ErreserbaManager.GordeAutobusErreserbak(erreserbakList);
             }
         }
     }

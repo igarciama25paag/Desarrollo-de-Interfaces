@@ -5,10 +5,31 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:GarraioenLekuErreserba"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="500" d:DesignWidth="500"
       Title="HegazkinOrria">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="HEGAZKINA" FontSize="24" TextAlignment="Center" Margin="20"/>
+
+        <StackPanel x:Name="eserlekuak" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+        <DockPanel Grid.Column="1" Grid.Row="1" Margin="5">
+            <TextBlock Text="ERRESERBAK" Margin="0,0,0,20" TextAlignment="Center" FontWeight="Bold" DockPanel.Dock="Top"/>
+            <StackPanel DockPanel.Dock="Bottom">
+                <Button Content="Erreserbatu" Click="Erreserbatu" Margin="5"/>
+                <Button Content="Erreserba ezabatu" Click="ErreserbaEzabatu" Margin="5"/>
+            </StackPanel>
+            <ListBox x:Name="erreserbak" DockPanel.Dock="Right" DisplayMemberPath="Izena"/>
+        </DockPanel>
     </Grid>
 </Page>

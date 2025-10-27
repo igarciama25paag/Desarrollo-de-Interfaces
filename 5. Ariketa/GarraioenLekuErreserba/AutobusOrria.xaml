@@ -22,7 +22,7 @@
 
         <TextBlock Text="AUTOBUSA" FontSize="24" TextAlignment="Center" Margin="20"/>
 
-        <StackPanel x:Name="eserlekuak" Grid.Column="0" Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <StackPanel x:Name="eserlekuak" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
         <DockPanel Grid.Column="1" Grid.Row="1" Margin="5">
             <TextBlock Text="ERRESERBAK" Margin="0,0,0,20" TextAlignment="Center" FontWeight="Bold" DockPanel.Dock="Top"/>
@@ -30,7 +30,7 @@
                 <Button Content="Erreserbatu" Click="Erreserbatu" Margin="5"/>
                 <Button Content="Erreserba ezabatu" Click="ErreserbaEzabatu" Margin="5"/>
             </StackPanel>
-            <ListBox x:Name="erreserbak" DockPanel.Dock="Right"/>
+            <ListBox x:Name="erreserbak" DockPanel.Dock="Right" DisplayMemberPath="Izena"/>
         </DockPanel>
 
     </Grid>
